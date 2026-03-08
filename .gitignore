@@ -1,0 +1,22 @@
+# Generated outputs — recreated by running the analysis
+data/
+outputs/
+
+# Backup and reference files
+backup/
+context/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
