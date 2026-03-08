@@ -26,7 +26,6 @@ Since the same physical cane load passed through all three mills, any difference
 | 4 | `phase4_method_comparison.py` | Bland-Altman, Passing-Bablok regression, CCC |
 | 5 | `phase5_anova.py` | Blocked ANOVA, Tukey HSD, cut type interaction |
 | 6 | `phase6_temporal.py` | Weekly bias trends, seasonal stability |
-| 7 | `phase7_economic.py` | Economic impact of the bias in Pol%caña |
 
 ## Project Structure
 

@@ -15,7 +15,6 @@ phases = [
     "phase4_method_comparison.py",
     "phase5_anova.py",
     "phase6_temporal.py",
-    "phase7_economic.py",
 ]
 
 for phase in phases:
