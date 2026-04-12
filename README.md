@@ -1,5 +1,11 @@
 # Core Sampler Bias Analysis
 
+> **The problem:** Ingenio Santa Ana uses a horizontal core sampler to measure the sucrose content of incoming cane loads, while two neighboring mills (La Unión, Pantaleón) use oblique samplers. If the horizontal sampler reads low, farmers are systematically underpaid relative to the true quality of their cane.
+>
+> **What was built:** A six-phase statistical pipeline — paired t-tests, Bland-Altman method comparison, blocked ANOVA, and temporal stability analysis — that uses Zafra 2023-24 data from loads processed simultaneously by all three mills to isolate the sampler effect from real cane-quality variation.
+>
+> **Outcome:** The horizontal sampler at Santa Ana reads approximately **5 kg/t lower** in `Pol%caña` than the oblique-sampler average across La Unión and Pantaleón. This systematic underestimation directly reduces farmer payment calculations and is stable across the harvest season, ruling out a temporal or operational artifact.
+
 Statistical investigation comparing **horizontal** vs **oblique** core samplers used to measure sugarcane quality at the mill intake.
 
 ## Background
